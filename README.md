@@ -8,13 +8,11 @@
   <h1>Linux Battle Shaper (LBS)</h1>
   <p><b>A powerful, universal per-process CPU limiter for Linux with Wayland and X11 support.</b></p>
 
-  <br>
-
   <a href="#installation"><b><kbd> <br> Installation <br> </kbd></b></a>
   <a href="#usage"><b><kbd> <br> Usage <br> </kbd></b></a>
   <a href="#build"><b><kbd> <br> Build <br> </kbd></b></a>
 
-  <br>
+   <h2></h2>
 </div>
 
 ---
