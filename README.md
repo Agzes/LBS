@@ -15,8 +15,6 @@
    <h2></h2>
 </div>
 
----
-
 **Linux Battle Shaper (LBS)** is a modern Linux utility (similar to BES for Windows) that allows you to limit the CPU usage of specific processes.
 
 ## ✨ Features
