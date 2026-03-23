@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Linux Battle Shaper
+Comment=CPU Limiter with universal focus support
+Exec=lbs
+Icon=dev.agzes.lbs
+Terminal=false
+Type=Application
+Categories=Utility;System;
+StartupNotify=true
