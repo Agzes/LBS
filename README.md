@@ -5,7 +5,7 @@
   <kbd>📂 Open-source</kbd>
   <br><br>
   <img src="assets/icons.png" height="128" alt="LBS Logo"/>
-  <h1>Linux Battle Shaper (LBS)</h1>
+  <br><h1 align="center">&nbsp;&nbsp;&nbsp;&nbsp; $\Huge{\textsf{Linux Battle Shaper (LBS)}}$ <sup><sup><kbd>v.0.1</kbd></sup></sup> 
   <p><b>A powerful, universal per-process CPU limiter for Linux with Wayland and X11 support.</b></p>
 
   <a href="#installation"><b><kbd> <br> Installation <br> </kbd></b></a>
