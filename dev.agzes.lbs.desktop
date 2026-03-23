@@ -2,7 +2,7 @@
 Name=Linux Battle Shaper
 Comment=CPU Limiter with universal focus support
 Exec=lbs
-Icon=dev.agzes.lbs
+Icon=lbs
 Terminal=false
 Type=Application
 Categories=Utility;System;
