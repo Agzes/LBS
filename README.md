@@ -35,7 +35,6 @@
 ### AppImage (binary)
 - **AppImage**: Download the latest version from the [Releases][Download] page. (run `chmod +x LBS-v0.1.0.AppImage` and then `./LBS-v0.1.0.AppImage` and see [Usage](#usage))
 
-<!-- todo
 ### AUR (auto-build)
 - **[AUR](https://aur.archlinux.org/packages/lbs)**: 
 ```bash
@@ -44,7 +43,7 @@ yay -S lbs
 or 
 ```bash
 paru -S lbs 
-``` -->
+```
 
 ## <a name="usage"></a>🚀 Usage
 1. Launch LBS.
@@ -81,7 +80,16 @@ You will need **Rust**, **GTK4**, **xprop** and **dbus-send** installed on your 
    ./target/release/lbs
    ```
 
+## 🗑️ Correct uninstall 
+### AppImage:
+1. Open LBS and go to "Settings"
+2. Click "Uninstall (Remove all traces)"
+3. Remove the AppImage file.
 
+### AUR:
+1. Run `yay -Rns lbs` or `paru -Rns lbs`
+
+<br>
 
 ## 📄 License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
