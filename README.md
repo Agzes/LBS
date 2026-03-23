@@ -3,18 +3,16 @@
   <kbd>🪶 GTK4</kbd>
   <kbd>🚀 Wayland & X11</kbd>
   <kbd>📂 Open-source</kbd>
-
-  <br>
+  <br><br>
   <img src="assets/icons.png" height="128" alt="LBS Logo"/>
-  <br>
   <h1>Linux Battle Shaper (LBS)</h1>
   <p><b>A powerful, universal per-process CPU limiter for Linux with Wayland and X11 support.</b></p>
 
   <br>
 
-   **[<kbd> <br> Installation <br> </kbd>][Installation]** 
-   **[<kbd> <br> Build <br> </kbd>][Build]** 
-   **[<kbd> <br> Usage <br> </kbd>][Usage]** 
+  <a href="#installation"><b><kbd> <br> Installation <br> </kbd></b></a>
+  <a href="#usage"><b><kbd> <br> Usage <br> </kbd></b></a>
+  <a href="#build"><b><kbd> <br> Build <br> </kbd></b></a>
 
   <br>
 </div>
@@ -36,10 +34,10 @@
 - **🛡️ Safe**: Automatically sends `SIGCONT` to all limited processes on exit to prevent them from hanging in a STOP state.
 - **⚡ Fast**: Written in Rust for maximum performance and minimal memory footprint.
 
-## 📥 Installation
+## <a name="installation"></a>📥 Installation
 
 ### AppImage (binary)
-- **AppImage**: Download the latest version from the [Releases](Download) page. (run `chmod +x LBS-v0.1.0.AppImage` and then `./LBS-v0.1.0.AppImage` and see [Usage](#usage))
+- **AppImage**: Download the latest version from the [Releases][Download] page. (run `chmod +x LBS-v0.1.0.AppImage` and then `./LBS-v0.1.0.AppImage` and see [Usage](#usage))
 
 <!-- todo
 ### AUR (auto-build)
@@ -52,13 +50,13 @@ or
 paru -S lbs 
 ``` -->
 
-## 🚀 Usage
+## <a name="usage"></a>🚀 Usage
 1. Launch LBS.
 2. Click the **"Target..."** button to select a process from the list.
 3. Adjust the limit slider (e.g., -50% will limit the process to half its speed).
 4. Enable **"Unlimit at Focus"** in the settings if you want the app to run at full speed whenever its window is active. (optional)
 
-## 📦 Build
+## <a name="build"></a>📦 Build
 
 ### Prerequisites
 You will need **Rust**, **GTK4**, **xprop** and **dbus-send** installed on your system.
@@ -98,6 +96,3 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <kbd>pls ⭐ project!</kbd>
 
 [Download]: https://github.com/Agzes/LBS/releases
-[Installation]: #installation
-[Build]: #build
-[Usage]: #usage
